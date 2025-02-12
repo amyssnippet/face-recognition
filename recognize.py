@@ -68,7 +68,7 @@ if __name__ == "__main__":
     }
     in_times = {}
 
-    cam = "http://192.168.43.1:8080/video"
+    cam = "http://192.168.117.126:8080/video"
     cap = cv2.VideoCapture(cam)
 
     while True:

@@ -12,7 +12,7 @@ def generate_dataset(user_name, num_samples=200):
         for (x, y, w, h) in faces:
             return img[y:y+h, x:x+w]
         
-    cam = "http://192.168.43.1:8080/video"
+    cam = "http://192.168.117.126:8080/video"
     cap = cv2.VideoCapture(cam)
     img_id = 0
 
